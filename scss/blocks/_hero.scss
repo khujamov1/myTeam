@@ -1,0 +1,32 @@
+@use "../mixins";
+.hero {
+    padding-top: 24px;
+    padding-bottom: 197px;
+    background-image: url(/images/backgrounds/herobgm.png);
+    background-repeat: no-repeat;
+    background-position: center -136px;
+}
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+.hero__title {
+    @include mixins.titleUnstyled;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.hero__title-strong {
+    color: #f67e7e;
+}
+.hero__desc {
+    font-family: "Livvic";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 18px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}

@@ -1,0 +1,82 @@
+@use "../mixins";
+
+.services {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 64px;
+    background-image: url("/images/backgrounds/servicesbgm.png");
+    background-repeat: no-repeat;
+}
+.services__title-box {
+    max-width: 240px;
+    text-align: left;
+}
+.services__title-box::before {
+    position: absolute;
+    top: 68px;
+    width: 50px;
+    height: 4px;
+    background-color: #f67e7e;
+    content: "";
+}
+.services__title {
+    @include mixins.titleUnstyled;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.services__list {
+    @include mixins.listUnstyled;
+    text-align: center;
+}
+.services__item {
+    padding-top: 136px;
+    position: relative;
+}
+.services__item:first-child::before {
+    position: absolute;
+    top: 48px;
+    left: 128px;
+    width: 72px;
+    height: 72px;
+    background-color: transparent;
+    background-image: url("/images/image/servicesf.svg");
+    content: "";
+}
+.services__item:nth-child(2)::before {
+    position: absolute;
+    top: 48px;
+    left: 128px;
+    width: 72px;
+    height: 72px;
+    background-color: transparent;
+    background-image: url("/images/image/servicess.svg");
+    content: "";
+}
+.services__item:nth-child(3)::before {
+    position: absolute;
+    top: 48px;
+    left: 128px;
+    width: 72px;
+    height: 72px;
+    background-color: transparent;
+    background-image: url("/images/image/serviceth.svg");
+    content: "";
+}
+.services__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    color: #F67E7E;
+}
+.services__desc {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+

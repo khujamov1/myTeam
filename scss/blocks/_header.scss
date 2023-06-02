@@ -1,0 +1,17 @@
+.header {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #014E56;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.header__btn {
+    width: 20px;
+    height: 17px;
+    border: none;
+    background-color: transparent;
+    background-image: url(/images/image/hamburger.svg);
+    background-size: 20px 17px;
+}
