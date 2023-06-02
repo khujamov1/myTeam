@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+// STICKY FOOTER
+body {
+    font-family: "Livvic";
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+} 
+.site-main {
+    flex-grow: 1;
+}

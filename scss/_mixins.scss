@@ -1,0 +1,14 @@
+@mixin listUnstyled {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+};
+
+
+@mixin titleUnstyled {
+    font-family: "Livvic";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0;
+}
